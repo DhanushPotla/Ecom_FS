@@ -1,0 +1,13 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "ecommerce web app",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd server && npm install --legacy-peer-deps  && cd ../client && npm install --legacy-peer-deps && npm run build",
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhanush sriram",
+  "license": "ISC"
+}
